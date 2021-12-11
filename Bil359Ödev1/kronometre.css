@@ -1,0 +1,41 @@
+﻿body {
+    background:#dbd8d8;
+    color: white;
+}
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    line-height: 400px;
+}
+button {
+    width: 100px;
+    height: 30px;
+    border: 3px  white;
+    border-radius: 50px;
+    background: #202020;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+#stopwatch {
+    font-size: 100px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+
+#buttons {
+    position: absolute;
+    top: 55%;
+    left: 48.4%;
+    transform: translate(-51.6%, -45%);
+}
+
+    #buttons li {
+        display: inline;
+        padding-left: 10px;
+    }
